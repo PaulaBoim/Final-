@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Club de Astrologia</title>
+     <!-- LINK A LOS ESTILOS DEL CARRUSEL -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+	integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+	integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" 
+	crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  
+      <script src="https://kit.fontawesome.com/ea02d265ca.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <!--LINK A BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+  <section class="banner-desktop">
+  
+  </section>
+  
+  <section class="banner">
+    <img src="Imagenes/imagen1.png" alt=Logo class="logo">
+    <nav class="menu">
+      <input id="sidebar_trigger" class="sidebar_trigger" type="checkbox"/>
+        <label for="sidebar_trigger" class="trigger-white">
+            <span class="sidebar_button-open"><i class="fas fa-bars"></i></span>
+            <span class="sidebar_button-closed"><i class="fas fa-times"></i></span>
+        </label>
+    <div class="links">
+      <a href="index.html">INICIO</a>
+      <a href="horoscopo.html">HORÓSCOPO</a>
+      <a href="fuego.html">FUEGO</a>
+      <a href="aire.html">AIRE</a>
+      <a href="tierra.html">TIERRA</a>
+      <a href="agua.html">AGUA</a>
+  
+      <li class="nav-item">
+      <a class="nav-link-dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">MÁS OPCIONES</a>
+      <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+            <li><a class="dropdown-item" href="creador.html">Creadora</a></li>
+        </ul>
+        </li>
+    </div>
+  </section>
+
+  <section class="carrusel">
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="Imagenes/Acuariofrase.png" alt="Frase de Aries"></div>
+    <div class="item"><img src="Imagenes/Piscisfrase.png" alt="Guitar Master"></div>
+    <div class="item"><img src="Imagenes/Acuariofrase.png" alt="Maroon 5"></div>
+    <div class="item"><img src="Imagenes/Sagitariofrase.png" alt="Matt Flynn"></div>
+    <div class="item"><img src="Imagenes/Cancerfrase.png" alt="Concert"></div>
+    <div class="item"><img src="Imagenes/Capricorniofrase.png" alt="Live Show"></div>
+    <div class="item"><img src="Imagenes/Leofrase.png" alt="Jesse Carmichael"></div>
+    <div class="item"><img src="Imagenes/Virgofrase.png" alt="James Valentine"></div>
+    <div class="item"><img src="Imagenes/Librafrase.png" alt="Duo"></div>
+    <div class="item"><img src="Imagenes/Escorpiofrase.png" alt="Stage"></div>
+    <div class="item"><img src="Imagenes/Taurofrase.png" alt="Concert Los Ángeles"></div>
+    <div class="item"><img src="Imagenes/Geminisfrase.png" alt="Concert London"></div>
+</div>
+</section>
+  
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <article class="articulos">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Acuario</h3>
+            <div class="mb-1 text-muted">Dic 2022</div>
+            <p class="card-text mb-auto"> Hoy es una jornada más que ideal para ponerte al día con todo lo relacionado a trámites y pago de impuestos. Aprovecha el día. La belleza no siempre viene de la mano de la inteligencia. 
+                Evalúa qué aspecto te importa más de esa persona que conociste. No te dejes manipular por los consejos de un superior. 
+                Tendrá más experiencia que tú, pero en este caso está equivocado. Dale más importancia a tus criterios profesionales que a lo que opinan los demás. 
+                No te dejes influenciar por las ideas ajenas..</p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/acuario ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+       
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="col-md-6">
+        <article class="articulos">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Leo</h3>
+            <div class="mb-1 text-muted"> Dic 2022</div>
+            <p class="mb-auto"></p>No temas en defender tus ideales, aunque los demás no coincidan contigo. Si crees en tus ideas, mira hacia delante y arremete. Sorprende 
+            a tu pareja con una salida al cine o al teatro, la pasarán muy bien. Hace mucho tiempo que no salen juntos. Tu situación económica vuelve a la normalidad. 
+            Con esfuerzo y perseverancia lograste recuperarte. Disfruta el momento.No te obsesiones con eso de tener más tiempo para ti mismo. 
+            Necesitas trabajar, así que no te conviene ser tan haragán en tu trabajo.
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/leo ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+  `     
+          </div>
+        </div>
+      </div>
+    </div>
+</article>
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Piscis</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="card-text mb-auto">Las buenas noticias brillarán por su ausencia. Trata de tomar todo con calma porque no hay mal que dure cien años. Reúnes todas las 
+                condiciones necesarias para que cualquiera se rinda a tus pies, pero tu verborragia te juega en contra. No dejes para mañana lo que puedes hacer hoy, 
+                las oportunidades pasan sólo una vez y deberás tomar una decisión ahora.Rodéate solamente de aquellas personas que saben guardar tus secretos. 
+                Es mejor tener pocos amigos, pero de los buenos.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/pisis ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+    </article>
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Cáncer</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="mb-auto">Tu vida empieza a encaminarse luego de superar varios conflictos. Es momento de relajarse y mirar hacia delante. Sientes que la relación 
+                va por buen camino, pero tu pareja no es sincera en sus sentimientos. Ten cuidado, juega contigo. El clima laboral está enrarecido desde hace unos días 
+                y hay rumores de despidos. Ten cuidado con quiénes te alías. La nostalgia no te ayudará en este momento. Enfócate en lo que vendrá y 
+                apóyate en aquellos que te quieren de verdad.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/cancer ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="row mb-2">
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Libra</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="card-text mb-auto">Te harán un obsequio que te deslumbrará. Te alegrará saber que hay alguien que piensa en ti y conoce bien tus gustos. Las 
+                discusiones de los últimos tiempos han servido para que la pareja se una más. Ahora sí que nadie podrá separarlos. Si dudas a la hora de invertir 
+                tu dinero, consulta a gente idónea. No sigas los consejos de quienes buscan beneficiarse de ti. Enfócate en tu futuro y en los grandes cambios que se avecinan. Si sigues mirando al pasado, te perderás lo que vendrá.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/libra ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+    </article>
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Sagitario</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="mb-auto">Horóscopo de hoy: El tiempo te jugará una pésima pasada durante el día de hoy, retrasándote en tus planes para toda la jornada. Sentirás 
+                el pesar de tener que abandonar una relación que tantas satisfacciones te ha traído. No mires atrás y sigue adelante. Utiliza tu tiempo libre para 
+                comenzar a hacer estimativos de cuanto ganarías con ese ingreso extra que tienes en mente. No solo es necesario tener conocimientos sobre un tópico en particular. En el mundo de los negocios de hoy es necesario aparentarlo también.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/sagitario ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="row mb-2">
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Aries</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="card-text mb-auto">Las determinaciones clave que deberás tomar hoy cambiarán radicalmente el curso de tu vida en un futuro cercano. Cuidado. Caerás en cuenta que no has sido capaz de borrar definitivamente los sentimientos hacia tu ultima pareja.
+                 No te dejes desanimar por los resultados recientes que has obtenido en tu trabajo. Continua adelante sin bajar los brazos.No solo debes contar con los 
+                 conocimientos, sino también debes saber vender tu imagen efectivamente en lo que al mundo de los negocios se refiere.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/aries ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+    </article>
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Tauro</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="mb-auto">Determinarás que es necesario romper el silencio y comenzar a sacar a la luz ciertos problemas personales que te agobian. Las dudas te 
+                embargarán sobre si has tomado la decisión correcta al terminar una relación conflictiva. No lo dudes.Las discusiones estarán al orden del día en la 
+                jornada de hoy. Te será imposible hacerte entender correctamente.Recuerda que tu conocimiento es tu capital. Cada curso y seminario que realices está aumentando el valor de tus conocimientos.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/tauro ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="row mb-2">
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Virgo</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="card-text mb-auto">Si te pones firme, lograrás que tus ideas prevalezcan sobre las de los demás y terminen haciendo lo que tú propones. Es momento 
+                de que cambies tu imagen. Asistirás a una fiesta donde serás el centro de atención y conocerás alguien muy especial.Si sigues derrochando tu dinero, 
+                nunca ahorrarás nada. Sé más medido y consciente al momento de comprar.Sientes que cargas con una gran responsabilidad sobre tus hombros. Es porque estás acostumbrado a que otros hagan todo por ti.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/virgo ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+    </article>
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Géminis</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="mb-auto">Intentarás ayudar a un amigo y te responderá de muy mala manera. Explícale tu intención, pero no invadas su intimidad. Hay una perfecta 
+                comunión en la pareja, pero surgirán diferencias por temas importantes para el futuro de la relación.Los problemas laborales te acosan y, 
+                por si fuera poco, la familia te reclama. Sea como sea, trata de encontrar un equilibrio.Con inteligencia y sentido común podrás hacer frente a los rumores que circulan sobre ti. No permites que nadie invente cosas falsas.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/geminis ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+      <div class="row mb-2">
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Capricornio</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="card-text mb-auto">No podrás mantener el estilo de vida que estas llevando por mucho más tiempo. Comienza a percatarte de las advertencias. Encontrarás al amor en el lugar menos buscado en el día de hoy. Aun así, sé muy cuidadoso con tus sentimientos.
+                Tus constantes decepciones en las actividades que amas están comenzando a hacerte sentir que no estas hecho para ellas.Llegarás a la conclusión de que la mejor manera de llegar a puntos positivos en la relación es siempre a través del dialogo abierto en la pareja..</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/capricornio ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+    </article>
+        <div class="col-md-6">
+            <article class="articulos">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Escorpio</h3>
+              <div class="mb-1 text-muted">Dic 2022</div>
+              <p class="mb-auto">Tu energía es extraordinaria y es el tiempo indicado para brindarle a tu familia momentos de sano esparcimiento. La relación que tienes es muy sincera. Pero lamentablemente el tiempo y la rutina harán estragos en la pareja.
+                 El ambiente laboral está tenso y no te conviene involucrarte en pleitos. Mejor, guárdate tus opiniones para otro momento.Tranquilidad y paz interior 
+                 son dos cosas que tú no conoces. Sería bueno que te dediques a hacer yoga o meditación.</p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="250" src="Imagenes/escorpio ig.png" class="img-fluid rounded-start" alt="..." role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section id="galeria" class="container">
+        <div class="text-center pt-5">
+            <h1>Ilustración del mes</h1>
+            <p>Conocé tu imagen del horóscopo.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Iacuario.png" alt="Ilustacion Acuario">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Iaries.png" alt="Ilustracion Aries">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Icancer.png" alt="Ilustracion Cancer">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Icapricornio.png" alt="Ilustracion Capricornio">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Iescorpio.png" alt="Ilustracion Escorpio">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Igeminis.png" alt="Ilustracion Geminis">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Ileo.png" alt="Ilustacion Leo">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Ilibra.png" alt="Ilustracion Libra">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Ipiscis.png" alt="Ilustacion Piscis">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/ISagitario.png" alt="Ilustacion Sagitario">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Itauro.png" alt="Ilustacion Tauro">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="Imagenes/Ivirgo.png" alt="Ilustacion Virgo">
+            </div>
+        </div>
+    </section>
+
+    <section class="game">
+      <style>
+        :root {
+            --w: calc(70vw / 6);
+            --h: calc(70vh / 4);
+        }
+
+        * {
+            transition: all 0.5s;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            /* /-webkit-perspective: 1000px; */
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: calibri;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        .area-tarjeta,
+        .tarjeta,
+        .cara {
+            cursor: pointer;
+            width: var(--w);
+            min-width: 100px;
+            height: var(--h);
+        }
+
+        .tarjeta {
+            position: relative;
+            transform-style: preserve-3d;
+            animation: iniciar 5s;
+        }
+
+        .cara {
+            position: absolute;
+            backface-visibility: hidden;
+            box-shadow: inset 0 0 0 5px white;
+            font-size: 500%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .trasera {
+            background-color: lightcyan;
+            transform: rotateY(180deg);
+        }
+
+        .superior {
+            background: linear-gradient(orange, darkorange);
+        }
+
+        .nuevo-juego {
+            cursor: pointer;
+            background: linear-gradient(orange, darkorange);
+            padding: 20px;
+            border-radius: 50px;
+            border: white 5px solid;
+            font-size: 130%;
+        }
+
+        @keyframes iniciar {
+
+            20%,
+            90% {
+                transform: rotateY(180deg);
+            }
+
+            0%,
+            100% {
+                transform: rotateY(0deg);
+            }
+        }
+    </style>
+
+    <!-- HTML -->
+    <!-- estructura visual -->
+
+    <div id="tablero">
+    </div>
+
+    <br>
+
+    <div class="nuevo-juego" onclick="generarTablero()">
+        Nuevo Juego
+    </div>
+
+    <!-- JS -->
+    <!-- parte lógica -->
+    <script>
+
+        let iconos = []
+        let selecciones = []
+
+        generarTablero()
+
+        function cargarIconos() {
+            iconos = [
+                '<img src="imagenes/capricorniologo.png" class="size-img"></i>',
+                '<img src="imagenes/cancerlogo.png" class="size-img"></i>',
+                '<img src="imagenes/leologo.png" class="size-img"></i>',
+                '<img src="imagenes/sagitariologo.png" class="size-img"></i>',
+                '<img src="imagenes/geminislogo.png" class="size-img"></i>',
+                '<img src="imagenes/picislogo.png" class="size-img"></i>',
+                '<img src="imagenes/acuariologo.png" class="size-img"></i>',
+                '<img src="imagenes/taurologo.png" class="size-img"></i>',
+                '<img src="imagenes/sagitariologo.png" class="size-img"></i>',
+                '<img src="imagenes/virgologo.png" class="size-img"></i>',
+                '<img src="imagenes/arieslogo.png" class="size-img"></i>',
+                '<img src="imagenes/libralogo.png" class="size-img"></i>',
+            ]
+        }
+
+        function generarTablero() {
+            cargarIconos()
+            selecciones = []
+            let tablero = document.getElementById("tablero")
+            let tarjetas = []
+            for (let i = 0; i < 24; i++) {
+                tarjetas.push(`
+                <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
+                    <div class="tarjeta" id="tarjeta${i}">
+                        <div class="cara trasera" id="trasera${i}">
+                            ${iconos[0]}
+                        </div>
+                        <div class="cara superior">
+                            <i class="far fa-question-circle"></i>
+                        </div>
+                    </div>
+                </div>        
+                `)
+                if (i % 2 == 1) {
+                    iconos.splice(0, 1)
+                }
+            }
+            tarjetas.sort(() => Math.random() - 0.5)
+            tablero.innerHTML = tarjetas.join(" ")
+        }
+
+        function seleccionarTarjeta(i) {
+            let tarjeta = document.getElementById("tarjeta" + i)
+            if (tarjeta.style.transform != "rotateY(180deg)") {
+                tarjeta.style.transform = "rotateY(180deg)"
+                selecciones.push(i)
+            }
+            if (selecciones.length == 2) {
+                deseleccionar(selecciones)
+                selecciones = []
+            }
+        }
+
+        function deseleccionar(selecciones) {
+            setTimeout(() => {
+                let trasera1 = document.getElementById("trasera" + selecciones[0])
+                let trasera2 = document.getElementById("trasera" + selecciones[1])
+                if (trasera1.innerHTML != trasera2.innerHTML) {
+                    let tarjeta1 = document.getElementById("tarjeta" + selecciones[0])
+                    let tarjeta2 = document.getElementById("tarjeta" + selecciones[1])
+                    tarjeta1.style.transform = "rotateY(0deg)"
+                    tarjeta2.style.transform = "rotateY(0deg)"
+                }else{
+                    trasera1.style.background = "plum"
+                    trasera2.style.background = "plum"
+                }
+            }, 1000);
+        }
+
+    </script>
+    </section>
+      <!--LINK AL CDN DEL CARRUSEL-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" 
+	integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" 
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+	integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+	crossorigin="anonymous"></script>
+
+	<script>
+			  $('.owl-carousel').owlCarousel({
+	loop:true,
+	margin:10,
+	nav:false,
+	autoplay: true,
+	autoplayTimeout: 3000,
+	stagePadding: 50,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:2
+		},
+		1000:{
+			items:3
+		}
+	}
+})
+	</script>
+   
+
+   <footer>
+    <div class="text-center text-white">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Informática General</h5>
+        <p class="card-text text-muted">Página web creada por Paula Marghetich</p>
+        <div class="card-footer text-muted">ARTES MULTIMEDIALES - UNA</div><br>
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+</html>

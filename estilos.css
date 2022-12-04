@@ -1,0 +1,258 @@
+
+@font-face { /*Tipografía de la página*/
+	font-family: poppins;
+	src: url(poppins-m.ttf);
+}
+.size-img {
+    width: 100px;
+    height: 111px;
+}
+
+@media screen and (min-width: 500px) {
+    .nav-item {
+        list-style: none;
+    }
+.dropdown-menu {
+        background-color: #43498C;
+        color: white;
+    }
+    .nav-link-dropdown-toggle {
+        background-color: #43498C;
+        color: white;
+    }
+    .nav-link-dropdown-toggle:hover {
+        background-color: #43498C;
+        color: white;
+    }
+    .nav-item-dropdown {
+        color: white;
+    }
+    .dropdown-menu li a:hover {
+        background-color: #43498C;
+        color: white;
+    }
+.dropdown-menu.show{
+    background-color: #43498C;
+}
+.row a {
+    text-decoration: none;
+    color: white
+}
+.owl-stage-outer {
+    margin-top: 40px;
+}
+.button-h {
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+}
+
+.one {
+    margin-top: 135px;
+}
+.main-portada {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background-color: #43498C;
+    justify-content: center;
+}
+.main-portada h2 {
+    font-size: 60px;
+    color: #F1B76E;
+    text-align: center;
+}
+.main-portada img {
+    margin-left: 300px;
+}
+.main-portada .a {
+    color: white;
+}
+.main-portada p {
+    text-align: center;
+    color: white;
+}
+.main-portada img {
+    justify-content: left;
+}
+.banner {
+    background-color: #43498C;
+}
+.banner img{
+    display: none;
+}
+
+nav .links {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    text-align: right;
+    padding: 2px 20px 8px 500px;
+
+   }
+   label {
+       display: none;
+   }
+   .links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 70px;
+   }
+   .links a:hover {
+       background-color: #43498C;
+   }
+.menu {
+    margin-top: -33px;
+    margin-left: 360px;
+}
+}
+.navbar.style {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	min-height: 80px;
+	margin-bottom: 10px;
+}
+
+#boton{
+	padding: 15px 26px;
+	min-width: 150px;
+	border-radius: 2px;
+	margin: 190px;
+}
+#galeria img{
+    width: 100%;
+}
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 15px;
+}
+#galeria img:hover {
+    border: 5px solid white;
+    cursor: grab;
+}
+
+/* centrar fichas de signos*/
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.fotos {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid  white;
+}
+.sinMargen { 
+    margin: 0px;
+}
+.borde { 
+    border-style: none;
+}
+
+.divCentrado {
+    margin: 0 auto;
+}
+.articulos{
+	background-color: #FFF1DA;
+	margin: 15px 30px 0 30px;
+}
+.podcast{
+	display: flex;
+	margin: 10px;
+	
+}
+#nosotras {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .main-portada {
+        background-color: #43498C;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trigger-white {
+        color: white;
+        margin-left: 130px;
+    }
+    .main-portada img {
+    max-width: 60%;
+    margin-left: 20%;
+    }
+    .main-portada h2 {
+        color: #F1B76E;
+        text-align: center;
+    }
+    .main-portada .a {
+        color: white;
+    }
+    .main-portada p {
+        text-align: center;
+        color: white;
+    }
+    .banner {
+        margin-top: -7px;
+        background-color: #43498C;
+    }
+    .nav {
+        position: sticky;
+        text-align: right;
+        margin-top: -40px;
+    }
+    .links {
+        text-align: left;
+        display: none;
+    }
+    .links a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin: 10px;
+    }
+    .menu {
+        margin-top: -33px;
+        margin-left: 200px;
+    }
+    .sidebar_trigger:checked ~ .links {
+        display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+    }
+    .label {
+        display: block;
+        cursor: pointer;
+    }
+    .sidebar_trigger {
+        display: none;
+    }
+     .sidebar_trigger:checked + label > .sidebar_button-open {
+        display: none;
+     }
+     
+     .sidebar_trigger:not(:checked) + label > .sidebar_button-closed {
+        display: none;
+     }
+    .logo {
+        height: 30px;
+        margin: 10px;
+    }
+    .dropdown-menu {
+        background-color: #43498C;
+        color: white;
+    }
+    .nav-link-dropdown-toggle {
+        background-color: #43498C;
+        color: white;
+    }
+    .dropdown-menu.show{
+        background-color: #43498C;
+    }
+    .nav-item {
+        list-style: none;
+    }
+}
